@@ -13,10 +13,10 @@ public class Switch1 {
 			break;
 		case 3 :
 			System.out.println("잘있어요");
-		    break
+		   
 		    
 			
-			swicth 
+			
 			
 			
 			
