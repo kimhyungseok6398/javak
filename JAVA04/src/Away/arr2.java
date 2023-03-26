@@ -6,8 +6,8 @@ public class arr2 {
 		// 하나의 주제로 여러 변수를 묶기위해 만듦
 		
 		// 카페에서 커피메뉴를 전시해야한다
-		string menu1 = "에스프레소";
-		string menu2 = "아메리카노";   //메뉴에서  제거
+		String menu1 = "에스프레소";
+		String menu2 = "아메리카노";   //메뉴에서  제거
 		//일반 변수로 나열했을때의 문제점
 		// 1. 메뉴가 총 몇개인지 바로 알수 없음 
 		// 2. 전체 메뉴가 총 몇개인지 바로 알수없음 
@@ -17,7 +17,7 @@ public class arr2 {
 		
 		
 		
-		int arr_size = menus length;  //총 갯수를 알고싶다 
+		int arr_size = menus.length;  //총 갯수를 알고싶다 
 		System.out.println("메뉴의 총갯수:" +arr_size);
 		
 		
