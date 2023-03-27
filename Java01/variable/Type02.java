@@ -14,6 +14,7 @@ public class Type02 {
 		int birth = 1997;
 		
 		
+		
 		System.out.println();	
 	}
 	
