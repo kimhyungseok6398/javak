@@ -23,8 +23,8 @@ public class plus2 {
 		System.out.println(숫자1%숫자2);
 		
 		int 숫자3 = 숫자1 * 숫자2;
+		System.out.println("결과는 : "숫자3);
 		
-		//우성순위 중요
+	
 	}
-
 }

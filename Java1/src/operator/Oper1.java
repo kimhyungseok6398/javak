@@ -15,7 +15,8 @@ public class Oper1 {
 	//나누기를 하면 소수점 삭제 
 	System.out.println(3/2);
 	
-	System.out.println(3/2.0);
+	System.out.println(3/2.0);//소수점 있는 숫자로 계산해야 그 숫자로 나옴
+	
 
 	}
 }
