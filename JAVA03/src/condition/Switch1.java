@@ -14,7 +14,9 @@ public class Switch1 {
 		case 3 :
 			System.out.println("잘있어요");
 		   
-		    
+		}
+	}
+}
 			
 			
 			
