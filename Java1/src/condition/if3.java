@@ -11,7 +11,6 @@ public class if3 {
 		
 		
 		
-		
 		int 점수;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("점수를 입력하세요>>");
