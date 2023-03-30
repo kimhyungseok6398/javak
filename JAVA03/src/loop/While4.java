@@ -7,8 +7,12 @@ public class While4 {
 		int i =0;
 		do {
 		System.out.println("적어도 한번은 실행을 보장");
-		i
+		ㅑ++;
+		while (i!=0);
+		
+		
 		}
-	}
-
+		}
+		
 }
+

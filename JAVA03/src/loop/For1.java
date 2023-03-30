@@ -20,8 +20,11 @@ public class For1 {
 		for(int j =0; j < 10; j++){
 			System.out.println("for");
 			
-		}
 			
+		}
+			//for(초기값; 조건식 증감량){반복할 코드)
+		//for문 장점 while에 비해 가독성이 좋고 개발의 편리
+		//단점 while 만큼 자유롭지는 않음
 		}
 			
 		}
