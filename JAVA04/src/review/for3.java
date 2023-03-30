@@ -16,6 +16,13 @@ public class for3 {
 		for(j=1;j<=10;j++) {
 			System.out.println(j+"");
 			System.out.println("for문끝:");
+		//for문 ()의 초기값 ; 조건식; 증감량은 비워둘수 있음
+			//포문의 무한 반복
+			for(;;) {
+				System.out.println("무한반복");
+				break;
+			}
+		
 		}
 		
 		}
