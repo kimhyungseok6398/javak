@@ -1,6 +1,6 @@
 package Away;
 
-public class arr2 {
+public class Arr2 {
 	public static void main(String[] args) {
 		//배열 
 		// 하나의 주제로 여러 변수를 묶기위해 만듦
@@ -33,7 +33,7 @@ public class arr2 {
 		int nums[];
 		nums = new int[3];  //nums에 정수변수 총 3개를 연결 {0번방,1번방,2번방}
 		
-		nums[0] = 1;
+	 	nums[0] = 1;
 		nums[1] = 2;
 		nums[2] = 3;
 		nums[3] = 4;
