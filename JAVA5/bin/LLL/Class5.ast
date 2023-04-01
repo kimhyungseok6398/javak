@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompilationUnit BeginColumn="1" BeginLine="1" EndColumn="3" EndLine="5" FindBoundary="false"
+                 Image=""
+                 PackageName="LLL"
+                 SingleLine="false"
+                 declarationsAreInDefaultPackage="false">
+   <PackageDeclaration BeginColumn="1" BeginLine="1" EndColumn="12" EndLine="1" FindBoundary="false"
+                       Image=""
+                       Name="LLL"
+                       PackageNameImage="LLL"
+                       SingleLine="true">
+      <Name BeginColumn="9" BeginLine="1" EndColumn="11" EndLine="1" FindBoundary="false"
+            Image="LLL"
+            SingleLine="true"/>
+   </PackageDeclaration>
+   <TypeDeclaration BeginColumn="1" BeginLine="3" EndColumn="1" EndLine="5" FindBoundary="false"
+                    Image=""
+                    SingleLine="false">
+      <ClassOrInterfaceDeclaration Abstract="false" BeginColumn="8" BeginLine="3" BinaryName="" Default="false"
+                                   EndColumn="1"
+                                   EndLine="5"
+                                   Final="false"
+                                   FindBoundary="false"
+                                   Image="Class5"
+                                   Interface="false"
+                                   Local="false"
+                                   Modifiers="1"
+                                   Native="false"
+                                   Nested="false"
+                                   NonSealed="false"
+                                   PackagePrivate="false"
+                                   Private="false"
+                                   Protected="false"
+                                   Public="true"
+                                   Sealed="false"
+                                   SimpleName="Class5"
+                                   SingleLine="false"
+                                   Static="false"
+                                   Strictfp="false"
+                                   Synchronized="false"
+                                   Transient="false"
+                                   TypeKind="CLASS"
+                                   Volatile="false">
+         <ClassOrInterfaceBody AnonymousInnerClass="false" BeginColumn="21" BeginLine="3" EndColumn="1"
+                               EndLine="5"
+                               EnumChild="false"
+                               FindBoundary="false"
+                               Image=""
+                               SingleLine="false"/>
+      </ClassOrInterfaceDeclaration>
+   </TypeDeclaration>
+</CompilationUnit>
