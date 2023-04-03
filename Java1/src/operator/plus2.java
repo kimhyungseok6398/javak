@@ -8,7 +8,7 @@ public class plus2 {
 		
 		int 숫자1 = 1;
 		int 숫자2 = 2;
-		int 숫자3 = 3;
+		
 		//빼기
 		System.out.println(1-1);
 		System.out.println(숫자1 - 숫자2);
@@ -23,7 +23,8 @@ public class plus2 {
 		System.out.println(숫자1%숫자2);
 		
 		int 숫자3 = 숫자1 * 숫자2;
-		System.out.println("결과는 : "숫자3);
+		System.out.println("곱하기 결과는 : "+숫자3);
+		
 		
 	
 	}

@@ -25,7 +25,7 @@ public class Ifelse3 {
 				
 				
 		//2. 학점계산 (90이상은 A 80이상은 B, 70이상은 C, 그 미만은 F
-		System.out.println("a");
+		System.out.print("학점을 입력하세요:");
 		int score = sc.nextint();
 		if(score>=90) {
 			System.out.println("a");
@@ -36,7 +36,6 @@ public class Ifelse3 {
 		}else {
 			System.out.println("f");
 		}
-			
 			
 				
 		
