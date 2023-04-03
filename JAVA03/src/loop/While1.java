@@ -1,4 +1,4 @@
-package loop;
+ package loop;
 
 	public class   While1{
 		public static void main(String[] args) {
@@ -10,16 +10,17 @@ package loop;
 		//반복문 : while for
 		
 		//while(){}
-		//while : if문과 한가지 차이점이 있음
+		//while : if문과 유사하나 한가지 차이점이 있음
 		
 		//if(){} : ()조건이 맞으면 {}실행
 		//while(){} : ()조건이 맞으면 실행하고 다시 ()_조건을 검사하러 위로 올라감 
 		
-		if(true) {// 조건이 맞다
+		if(true) {            // 조건이 맞다
 			System.out.println("if문 실행!");
+		}
 			while (true) {
-			System.out.println();
-			}
+			System.out.println("while문 실행");
+			
 		}
 		}
 	}

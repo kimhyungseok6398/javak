@@ -42,7 +42,7 @@ public class Switch1 {
 		case 3 :
 			System.out.println("잘있어요");
 			default :
-				System.out.println("그밖에");
+				System.out.println("잘못입력하셨습니다");
 			}
 }		
 			
@@ -50,6 +50,6 @@ public class Switch1 {
 	
 		
 	
-		
+		 
 		
 	

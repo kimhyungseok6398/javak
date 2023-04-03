@@ -6,6 +6,11 @@ public class While2 {
 		
 		//안녕 10000번 
 		System.out.println("안녕");
+		System.out.println("안녕");
+		System.out.println("안녕");
+		System.out.println("안녕");
+		System.out.println("안녕");
+		System.out.println("안녕");
 		//while 은 설계가 필요 
 		//10000번만 수행 
 		//샘플로 3번만 수행
