@@ -16,6 +16,7 @@ public class Review {
 		int age = 19;
 		int money = 0;
 		if(age>19) {
+			//나이가 19보다 크면 실행할 코드
 			System.out.println("성인입니다");
 			money = 1000;
 		}else if(age>13) {
@@ -40,7 +41,7 @@ public class Review {
 		    	
 		    }
 		     
-		     
+		      
 			
 			
 		  

@@ -4,7 +4,7 @@ import java.awt.desktop.SystemSleepListener;
 import java.util.Scanner;
 
 public class If4 {
-		public static void main(String[] args) {
+	public static void main(String[] args) {
 			//사용자에게 점수를 입력받고 
 			//천의 자리로 , 를 넣어주세요
 			/*
@@ -25,7 +25,8 @@ public class If4 {
 		   System.out.print("금액을 입력하세요>>");
 		   money = sc.nextInt();
 		   int 천 =0;
-		 string   str_n;
+		   int 천나머지;
+		   String str_n =null;
 		   
 		
 		   if(money <=999) {
@@ -38,7 +39,7 @@ public class If4 {
 			   } else if (천나머지<100);{
 					   str_n="0"+천나머지;
 			   
-			   } else if (천나머지<1000);{
+			   } else if (천나머지<1000){
 				   str_n=+천나머지;
 				   
 			   }
