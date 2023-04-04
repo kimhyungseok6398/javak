@@ -8,26 +8,17 @@ public class Break1 {
 	System.out.println("무한반복 시작!");
 	
 		if(true)     {
-			break;}
-
+			break;    //자신을 감싸고 있는 반목문을 끝냄
+		}
 		System.out.println("위에서 이미 반복문이 종료되어 이곳은 경유x");
 		}
-		
-	}
-		System.out.println(:"반복문 종료");
-
-		
+		System.out.println("반복문 종료");
+	
 		for(int i=1;i<=10;i++);{
-			if(int i>3) {
-			}	
-			//1~10
-			System.out.println(i+"");
-			}
 			if(i > 3) {
-			break;   //i가 3보다 크면 반복문 종료
+				break;    //i가 3보다 크면 반복문 종료
 			}
-				
-			}
+			//1~10	
+			System.out.print(i+" ");
 		}
-		
-}
+	}

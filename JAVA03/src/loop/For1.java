@@ -18,13 +18,13 @@ public class For1 {
 		//0~9까지 출력 for
 		//for문 플래그 관련 코드느 ()에 몰어버리자 반복할 코드만 {}남기자
 		for(int j =0; j < 10; j++){
-			System.out.println("for");
+			System.out.println("for:"+j);
 			
 			
 		}
-			//for(초기값; 조건식 증감량){반복할 코드)
-		//for문 장점 while에 비해 가독성이 좋고 개발의 편리
-		//단점 while 만큼 자유롭지는 않음
+			//for(초기값; 조건식 ;증감량){반복할 코드)
+		    //for문 장점 while에 비해 가독성이 좋고 개발의 편리
+			//단점 while 만큼 자유롭지는 않음
 		}
 			
 		}
