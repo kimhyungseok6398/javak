@@ -43,46 +43,4 @@ public class If4 {
 				   str_n=+천나머지;
 				   
 			   }
-			   }
-			
-			   
 		   }
-			   
-		   }
-		   
-		   
-		   
-		   System.out.println(금액을 입력하세요 >>");
-		   money = sc.nextint();
-		   int 천 =0;
-		   int 천나머지 ;
-		   String str_n = null;
-		   
-		   if(money) <==999)
-		   System.out.println(money);
-		   else if (money<== 999999;)
-           천 = money/1000;
-           천나머지 = money % 1000)
-           if(천나머지,10) {
-        	   str_n="+천나머지 ;"
-           else if (천나머지 < 100)) {
-        	   st
-           }
-           
-       	
-			
-	     
-		
-		        		  
-		        		   
-		    		
-	
-		    		
-		 
-					
-
-					
-		}
-			
-		}
-

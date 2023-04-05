@@ -10,12 +10,7 @@ public class if_for {
 				System.out.println("조건문안에 반복문"+i);
 			}
 			}
-			flag =0;
-			
-		}
 		
 		
 	}
 	
-
-}

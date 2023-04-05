@@ -1,4 +1,4 @@
-package Away;
+ package Away;
 
 public class Arr2 {
 	public static void main(String[] args) {
@@ -15,7 +15,8 @@ public class Arr2 {
 		
 		//==> 같은 주제로 이루어진 변수들은 배열이라는 문법을 통해서 변수나열을 한다
 		
-		
+		String menus [] = {"에스프래소",:"아메리카노"};
+		//메뉴의 갯수를 알고싶다
 		
 		int arr_size = menus.length;  //총 갯수를 알고싶다 
 		System.out.println("메뉴의 총갯수:" +arr_size);
@@ -24,6 +25,7 @@ public class Arr2 {
 		//첫번째 메뉴를 보고싶다 ==> 0번방을 출력 
 		// 변수명 [번호] 
 		System.out.println("=="+menus[0]+"=="]);
+		 
 		
 		menu1 = "일반변수 바꾸기";
 		menus[0] = "배열요소 바꾸기";

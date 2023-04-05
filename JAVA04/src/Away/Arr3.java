@@ -13,7 +13,9 @@ public class Arr3 {
 		
 		//배열 전체 출력  (for문)
 		for(int i=0;i<names.length; ++i) {
-			System.out.println(names[i]+"-"+prices[i]);				
+			System.out.println(names[i]+"-"+prices[i]);
+			
+			
 		
 			
 			

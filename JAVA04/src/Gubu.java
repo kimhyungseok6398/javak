@@ -4,12 +4,14 @@ public class Gubu {
 		for (int i =1; i <=9;i++) {
 			for (int j =1; j <=9; j++) {
 				System.out.println(j + "×"+ j + " = " + i * j + "t");
-					System.out.println();
+			}
+				System.out.println();
 				
 			}
 			
 		}
 	}
 
-}
+
+
 

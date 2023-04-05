@@ -28,13 +28,33 @@ public static void main(String[] args) {
 		//39,40,40 ==>과락
 		//40,40,40,==>총점 미달 
 		//40,40,100 ==> 합격
+		int 국어 = 39;
+		int 영어 = 40;
+		int 수학 = 40;
+		int 총점수 = 0;
 		
-		//4.1~10/까지의 합 구하기
-		
-		//5.5.10~1까지 거꾸로 출력하기
-		
-		
-		
-		
+		총점수 = 국어 + 영어 + 수학;
+		if(국어 >=40 && 영어>=40 && 수학 >=40);
+		if(총점수 >=150) {
+			System.out.println("합격");
+		}else {
+			System.out.println("총점미달");
+		}
+	    }else {
+			System.out.println("과락");
+	    }
 	}
-
+	    
+		
+		
+		//4. 1~10/까지의 합 구하기
+		int sum = 0;
+		for (int i=1;i<=10;i+=1) {
+			sum +=i;
+		System.out.println(sum);
+			
+		//5.5.10~1까지 거꾸로 출력하기
+		for(int i=10;i>=1;i--1) {
+			System.out.println(i+" ");
+	}
+}
