@@ -2,6 +2,8 @@ package funtion;
 
 public class Class2 {
 	public static void main(String[] args) {
+		
+		
 		//객체화할때 구체적으로 누구인지 명시
 		//사람은 사람인데 이순신
 		Person 이순신 = new Person();
@@ -39,7 +41,7 @@ public class Class2 {
 
 //클래스는 포괄적인 개념 ==>객체는 구체적인 물체
 class Person{
-	//사람 . 클래스 
+	//'사람' . 클래스 
 	
 	//변수 == 정보 (사람이라면 갖고 있는 정보)
 	String 이름;
@@ -49,5 +51,10 @@ class Person{
 	void 말하기 () {
 		System.out.println(이름+"가 말합니다");
 				System.out.println();
+	}
+	void 걷기() {
+		int 거리 = 3;
+		System.out.println(이름+"은"+거리+"km 만큼 걷습니다");
+		
 	}
 }
