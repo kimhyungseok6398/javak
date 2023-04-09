@@ -5,6 +5,8 @@ public class Class3 {
 		자동차 아빠차=new 자동차();
 		자동차 엄마차=new 자동차();
 		자동차 나=new 자동차();
+		아빠차.차정보();
+		
 		}
 
 }
@@ -18,8 +20,7 @@ class 자동차{
 	String 차색상="블랙";
 	
 	void 차정보() {
-		System.out.println("주인 "+차주인",차종:"차종")
-		System.out.println();
+		System.out.println("주인:"+차주인+ "," +차종+"차종");
 		
 	}
 }
