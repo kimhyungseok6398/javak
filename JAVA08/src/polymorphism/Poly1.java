@@ -9,8 +9,8 @@ public class Poly1 {
 		Human gang = new Gang();
 		
 		
-		Human hong = new Hong();		// 다형성 적용
-		Human gang = new Gang();
+		Human Hong = new Hong();		// 다형성 적용
+		Human Gang = new Gang();
 		
 	}
 }
@@ -19,10 +19,17 @@ class Hong implements Human{
 	public void 운동하기() {
 		System.out.println("홍씨가 운동합니다");
 	}
+
 	public void 공부하기() {
 		System.out.println("홍씨가 공부합니다");
 	}
-}
+	@Override
+	public void 말하기() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
 
 class Gang implements Human{
 	public void 운동하기() {

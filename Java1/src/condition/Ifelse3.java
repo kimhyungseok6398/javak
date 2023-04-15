@@ -46,7 +46,7 @@ public class Ifelse3 {
 		
 		int key = 0703;
 		System.out.print("비밀번호를 입력하세요: ");
-		int password = sc.nextInt();
+		int password = new Scanner(System.in);
 		if(key == password){
 			System.out.println("비밀번호가 맞습니다.");
 		}else {
