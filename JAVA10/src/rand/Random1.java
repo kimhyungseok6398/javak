@@ -31,13 +31,13 @@ class MyRandom{
 		// 100 ~ 105 까지 랜덤
 		Random random = new Random();
 		int result = random.nextInt(6) + 100;		// (0*6 ~ 0.999999*6) + 100		== 100 ~ 105
-		System.out.println(result);
+		System.out.println(result);		// (0~5) +100 == 100~105
 	}
 	
 	public void go3() {
 		// 1~10까지 랜덤
 		Random random = new Random();
-		int result = 0;
+		int result =  random.nextInt(10) + 1;
 		System.out.println(result);
 	}
 }
