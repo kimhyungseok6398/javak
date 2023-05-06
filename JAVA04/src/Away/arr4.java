@@ -29,7 +29,7 @@ public class arr4 {
 			string user_in
 			put = "";
 			System.out.print("수도를 알고자 하는 국가의 이름을 입력하세요>>");
-			user_input = sc.next();
+			user _input = sc.next();
 			
 			//해당하는 위치를 찾는다
 			
