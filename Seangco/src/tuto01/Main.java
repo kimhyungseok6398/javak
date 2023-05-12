@@ -1,10 +1,15 @@
 package tuto01;
 
-
-
 public class Main {
 	public static void main(String[] args) {
-		int num = 10;
-		System.out.println((num==0)?'0':((num>0)?"양":"음수"));
+		for (int i = 0; i < 10; i++) {
+			for (int j = 0; j <= i; j++) {
+				System.out.print("*");
+
+			}System.out.println();
+
+		}
+		
 	}
+
 }
