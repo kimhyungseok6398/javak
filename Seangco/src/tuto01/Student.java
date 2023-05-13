@@ -3,26 +3,19 @@ package tuto01;
 import java.util.Scanner;
 
 public class Student {
-	public static void main(String[] args) {
+
+	int korea_score, english_score, math_score;
+	String name;
+	int grade;
 		
-		
-		Scanner sc = new Scanner(System.in);
-		int score = sc.nextInt();
-		int korea_score;
-		int english_score;
-		int math_name;
-	
-		if(score>90) {
-			System.out.println("a");
-			
-		}else if(score>80) {
-			System.out.println("b");
-		}else if(score>70) {
-			System.out.println("c");
-			
-		}else
-		System.out.println("f");
-		
+	int sum(int a,int b,int c){
+		return a+b+c;
 	}
-	
+	double avg(int a,int b, int c) {
+		return (a+b+c)/3;
+	}
+		
 }
+
+
+		
